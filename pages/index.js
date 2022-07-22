@@ -27,7 +27,6 @@ export default function Home() {
   const handleSubmit = event => {
     event.preventDefault();
     setSubmitted(false)
-    alert(`Enviado? ${submitted}`)
 
     if(submitted){
       toast.success('Cadastro realizado com sucesso!', {
